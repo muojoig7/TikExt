@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TikExt"
+version = "0.1.0"
+description = "A Python extension library for TikTok utilities."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{ name = "مصطفى محمد", email = "example@email.com" }]
+dependencies = ["SignerPy"]
+
+[project.urls]
+Homepage = "https://github.com/muojoig7/TikExt"
+Repository = "https://github.com/muojoig7/TikExt"
+Issues = "https://github.com/muojoig7/TikExt"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tikext*"]
